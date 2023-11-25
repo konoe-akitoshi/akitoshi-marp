@@ -1,3 +1,8 @@
+/* @theme akitoshi */
+
+@import 'default';
+
+
 /* ベースとなる背景色とフォントカラー */
 section {
     background-color: white;
