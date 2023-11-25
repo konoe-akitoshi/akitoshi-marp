@@ -1,12 +1,11 @@
 /* @theme akitoshi */
 
-@import 'default';
-
+@import "default";
 
 /* ベースとなる背景色とフォントカラー */
 section {
-    background-color: white;
-    color: #333;
+    background-color: #faebd7;
+    color: #343434;
 }
 
 /* ヘッダーのスタイル */
@@ -41,11 +40,12 @@ strong {
 
 /* カバースライドの基本スタイル */
 section.cover-slide {
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    height: 100%;
 }
 
 /* タイトルスタイル */
@@ -57,22 +57,15 @@ section.cover-slide h1 {
 
 /* アイコン画像スタイル */
 section.cover-slide img.icon {
-    width: 100px;
-    height: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     margin: 20px 0;
 }
 
 /* ユーザー名スタイル */
 section.cover-slide .username {
-    font-size: 20px;
-    color: #333;
+    font-size: 25px;
+    color: #adcdec;
     margin-bottom: 40px;
-}
-
-/* フッタースタイル */
-section.cover-slide footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px 0;
 }

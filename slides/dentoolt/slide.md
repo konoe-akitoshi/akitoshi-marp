@@ -1,15 +1,14 @@
 ---
 marp: true
 theme: akitoshi
+footer: akitoshi-lab.com
 ---
 
 <!-- Cover slide -->
 # Your Presentation Title
 
-<div class="author-info">
-  <img src="../../asset/icon400.png" alt="Icon">
-  <span class="username">@konoe_akitoshi</span>
-</div>
+![icon](../../asset/icon400.png)
+@konoe_akitoshi
 
 ---
 
